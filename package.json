@@ -2,7 +2,10 @@
   "name": "tabelaListaMarlon",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://novack-fabio.github.io/tabelaListaMarlon/",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
